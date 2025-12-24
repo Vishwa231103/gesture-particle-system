@@ -1,0 +1,15 @@
+{
+  "name": "gesture-particle-system",
+  "private": true,
+  "scripts": {
+    "dev": "npx vite",
+    "build": "npx vite build",
+    "preview": "npx vite preview"
+  },
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "vite": "^7.3.0"
+  }
+}

@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+}
+
+/* THREE.JS PARTICLES (FULL SCREEN BACKGROUND) */
+#three {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+}
+
+/* CAMERA PREVIEW (BOTTOM LEFT, SMALL) */
+video {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+
+  width: 220px;
+  height: 160px;
+
+  object-fit: cover;
+  transform: scaleX(-1);
+
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+
+  z-index: 2;
+  opacity: 1;
+}
+
+/* HAND SKELETON OVERLAY (MATCH VIDEO SIZE & POSITION) */
+#output {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+
+  width: 220px;
+  height: 160px;
+
+  pointer-events: none;
+  z-index: 3;
+}
