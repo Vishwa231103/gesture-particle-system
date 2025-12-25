@@ -40,7 +40,7 @@ This project demonstrates **computer vision + creative coding + real-time graphi
 ## 🚀 Live Demo
 
 🔗 **Live URL:**  
-👉 *(Add your Vercel deployment link here)*
+👉 **https://gesture-particle-system-brown.vercel.app/**
 
 > ⚠️ Please allow **camera access** when prompted.  
 > Best experienced on **desktop Chrome / Edge**.
